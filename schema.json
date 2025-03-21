@@ -1,0 +1,177 @@
+{ 
+      "columns" : [ {
+        "name" : "MaarjAM accession number",
+        "titles" : "MaarjAM accession number",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceOccurrenceId",
+        "titles" : "GenBank accession number",
+        "datatype" : { 
+          "valueUrl": "https://www.ncbi.nlm.nih.gov/nuccore/{sourceOccurrenceId}"
+        } 
+      }, {
+        "name" : "sourceTargetClassName",
+        "titles" : "Fungal class",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTargetOrderName",
+        "titles" : "Fungal order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Fungal family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Fungal genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "Fungal species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonId",
+        "titles" : "VTX",
+        "datatype" : {
+           "type": "string",
+           "valueUrl": "https://maarjam.ut.ee/vtx/{sourceTaxonId}"
+        }
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "Source",
+        "datatype" : "string"
+      }, {
+        "name" : "Source specify",
+        "titles" : "Source specify",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubClassName",
+        "titles" : "Host subclass",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSuperOrderName",
+        "titles" : "Host superorder",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "Host order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "Host family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "Host genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecificEpithetName",
+        "titles" : "Host species",
+        "datatype" : "string"
+      }, {
+        "name" : "Ecosystem",
+        "titles" : "Ecosystem",
+        "datatype" : "string"
+      }, {
+        "name" : "Biome",
+        "titles" : "Biome",
+        "datatype" : "string"
+      }, {
+        "name" : "Habitat",
+        "titles" : "Habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "Climatic zone",
+        "titles" : "Climatic zone",
+        "datatype" : "string"
+      }, {
+        "name" : "Biogeo realm",
+        "titles" : "Biogeo realm",
+        "datatype" : "string"
+      }, {
+        "name" : "Soil pH",
+        "titles" : "Soil pH",
+        "datatype" : "string"
+      }, {
+        "name" : "C content",
+        "titles" : "C content",
+        "datatype" : "string"
+      }, {
+        "name" : "P content",
+        "titles" : "P content",
+        "datatype" : "string"
+      }, {
+        "name" : "N content",
+        "titles" : "N content",
+        "datatype" : "string"
+      }, {
+        "name" : "Altitude (m)",
+        "titles" : "Altitude (m)",
+        "datatype" : "string"
+      }, {
+        "name" : "Average annual precipitation (mm)",
+        "titles" : "Average annual precipitation (mm)",
+        "datatype" : "string"
+      }, {
+        "name" : "Continent",
+        "titles" : "Continent",
+        "datatype" : "string"
+      }, {
+        "name" : "Country",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "State",
+        "titles" : "State",
+        "datatype" : "string"
+      }, {
+        "name" : "Location",
+        "titles" : "Location",
+        "datatype" : "string"
+      }, {
+        "name" : "Coordinates",
+        "titles" : "Coordinates",
+        "datatype" : "string"
+      }, {
+        "name" : "Culture code",
+        "titles" : "Culture code",
+        "datatype" : "string"
+      }, {
+        "name" : "Forward primer",
+        "titles" : "Forward primer",
+        "datatype" : "string"
+      }, {
+        "name" : "Reverse primer",
+        "titles" : "Reverse primer",
+        "datatype" : "string"
+      }, {
+        "name" : "Marker region",
+        "titles" : "Marker region",
+        "datatype" : "string"
+      }, {
+        "name" : "Sequencing method",
+        "titles" : "Sequencing method",
+        "datatype" : "string"
+      }, {
+        "name" : "Sequencing chemistry",
+        "titles" : "Sequencing chemistry",
+        "datatype" : "string"
+      }, {
+        "name" : "journal",
+        "titles" : "Journal",
+        "datatype" : "string"
+      }, {
+        "name" : "year",
+        "titles" : "Year",
+        "datatype" : "string"
+      }, {
+        "name" : "title",
+        "titles" : "Title",
+        "datatype" : "string"
+      }, {
+        "name" : "author",
+        "titles" : "Authors",
+        "datatype" : "string"
+      } ]
+    }
+

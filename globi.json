@@ -1,0 +1,47 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "export_biogeo.csv",
+    "dcterms:bibliographicCitation" : "Öpik, M., Vanatoa, A., Vanatoa, E., Moora, M., Davison, J., Kalwij, J.M., Reier, Ü., Zobel, M. 2010. The online database MaarjAM reveals global and ecosystemic distribution patterns in arbuscular mycorrhizal fungi (Glomeromycota). New Phytologist 188: 223-241.",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "targetBodyPartName": "root",
+    "targetBodyPartId" : "http://purl.obolibrary.org/obo/PO_0025025",
+    "null" : [ "", "YYY00000" ],
+    "tableSchema" : "schema.json"
+  },  {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "export_biogeo_aca.csv",
+    "dcterms:bibliographicCitation" : "Öpik, M., Vanatoa, A., Vanatoa, E., Moora, M., Davison, J., Kalwij, J.M., Reier, Ü., Zobel, M. 2010. The online database MaarjAM reveals global and ecosystemic distribution patterns in arbuscular mycorrhizal fungi (Glomeromycota). New Phytologist 188: 223-241.",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "targetBodyPartName": "root",
+    "targetBodyPartId" : "http://purl.obolibrary.org/obo/PO_0025025",
+    "null" : [ "", "YYY00000" ],
+    "tableSchema" : "schema.json"
+  },  {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "export_biogeo_glo.csv",
+    "dcterms:bibliographicCitation" : "Öpik, M., Vanatoa, A., Vanatoa, E., Moora, M., Davison, J., Kalwij, J.M., Reier, Ü., Zobel, M. 2010. The online database MaarjAM reveals global and ecosystemic distribution patterns in arbuscular mycorrhizal fungi (Glomeromycota). New Phytologist 188: 223-241.",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "targetBodyPartName": "root",
+    "targetBodyPartId" : "http://purl.obolibrary.org/obo/PO_0025025",
+    "null" : [ "", "YYY00000" ],
+    "tableSchema" : "schema.json"
+  } ] 
+
+}
